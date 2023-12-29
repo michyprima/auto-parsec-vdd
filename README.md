@@ -1,6 +1,13 @@
-> [!NOTE]  
-> I'm working on a new version with more features and will release it next month. Please help me get to 200 stars 🌟
+# auto-parsec-vdd
+This is a fork of parsec-vdd.
 
+As you may know, VNC servers and Sunshine do not work without a monitor connected to the graphics card.
+
+This solves this problem polling for the monitor status and attaching and virtual monitor when no real monitor is found. This program also works without an active session and as such can be launched from a variety of environments including the task scheduler.
+
+
+Full credits to nomi-san as I only added the monitor detection routine and the auto attach/detach logic.
+#
 <img align="left" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBsVvpMSFpgenJxcoNf9IYCxhAL9EbkFPYMsJV3BMoHFfLKE9ZBJiZDHtcTACUyr2PsA&usqp=CAU" width="240px">
 
 # parsec-vdd
